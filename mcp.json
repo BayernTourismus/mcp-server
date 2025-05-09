@@ -1,0 +1,18 @@
+{
+  "servers": {
+    "mcp-server-nominatim": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "/Users/garnitz/Coding/MCP/mcp-server/src/nominatim.js"
+      ]
+    },
+    "mcp-events-bct": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "/Users/garnitz/Coding/MCP/mcp-server/src/bayerncloud.js"
+      ]
+    }
+  }
+}

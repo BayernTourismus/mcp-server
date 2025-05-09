@@ -1,0 +1,15 @@
+{
+  "name": "mcp-server",
+  "version": "1.0.0",
+  "description": "ModelContext Protocol Server for BCT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.0",
+    "@modelcontextprotocol/servers": "github:modelcontextprotocol/servers",
+    "dotenv": "^16.0.3",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "typescript": "^5.0.4"
+  }
+}
