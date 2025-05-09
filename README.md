@@ -45,7 +45,9 @@ The BayernCloud Tourism MCP server provides access to tourism event data from th
 
 ### Integration Example
 
-Can be used for Claude Desktop an others
+Can be used for Claude Desktop an others.
+
+See https://modelcontextprotocol.io/quickstart/user how to include with Claude Desktop.
 
 ```json
 {
