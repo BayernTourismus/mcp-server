@@ -8,7 +8,7 @@ const { StdioServerTransport } = require("@modelcontextprotocol/sdk/server/stdio
 const path = require('path');
 require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
 
-const NOMINATIM_BASE_URL = process.env.NOMINATIM_BASE_URL || "https://tourismuswissen.bayern:8081";
+const NOMINATIM_BASE_URL = process.env.NOMINATIM_BASE_URL || "https://nominatim.openstreetmap.org";
 const OSRM_BASE_URL = process.env.OSRM_BASE_URL || "http://router.project-osrm.org/";
 
 const server = new Server(
